@@ -1,0 +1,16 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+### Check API
+GET http://localhost:5293/ping
+
+### Get customers
+GET http://localhost:5293/api/customers
+
+### Create Customers
+POST http://localhost:5293/api/customers
+content-Type: application/json
+
+{
+  "firstname": "Test",
+  "lastname": "Customer",
+  "email": "Test.customer@example.com"
+}
